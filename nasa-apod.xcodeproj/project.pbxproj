@@ -14,6 +14,7 @@
 		DD2ECF0C2A5F1A8B00974C6A /* nasa_apodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ECF0B2A5F1A8B00974C6A /* nasa_apodTests.swift */; };
 		DD2ECF162A5F1A8B00974C6A /* nasa_apodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ECF152A5F1A8B00974C6A /* nasa_apodUITests.swift */; };
 		DD2ECF182A5F1A8B00974C6A /* nasa_apodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ECF172A5F1A8B00974C6A /* nasa_apodUITestsLaunchTests.swift */; };
+		DD2ECF252A5F1DBE00974C6A /* NasaImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ECF242A5F1DBE00974C6A /* NasaImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DD2ECF112A5F1A8B00974C6A /* nasa-apodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nasa-apodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2ECF152A5F1A8B00974C6A /* nasa_apodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasa_apodUITests.swift; sourceTree = "<group>"; };
 		DD2ECF172A5F1A8B00974C6A /* nasa_apodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasa_apodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD2ECF242A5F1DBE00974C6A /* NasaImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				DD2ECEFA2A5F1A8A00974C6A /* nasa_apodApp.swift */,
 				DD2ECEFC2A5F1A8A00974C6A /* ContentView.swift */,
+				DD2ECF242A5F1DBE00974C6A /* NasaImageView.swift */,
 				DD2ECEFE2A5F1A8B00974C6A /* Assets.xcassets */,
 				DD2ECF002A5F1A8B00974C6A /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2ECEFD2A5F1A8A00974C6A /* ContentView.swift in Sources */,
+				DD2ECF252A5F1DBE00974C6A /* NasaImageView.swift in Sources */,
 				DD2ECEFB2A5F1A8A00974C6A /* nasa_apodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,7 +24,7 @@ struct NASAImageView: View {
     }
 
     func fetchImageURL() {
-        let apiKey = "Fbc6i3XjnJIJcmQSZzwaMfojz9A5DIgQXJBbIIZE" // Replace with your own NASA APOD API key
+        let apiKey = "" // Replace with your own NASA APOD API key
         let urlString = "https://api.nasa.gov/planetary/apod?api_key=\(apiKey)"
 
         if let url = URL(string: urlString) {

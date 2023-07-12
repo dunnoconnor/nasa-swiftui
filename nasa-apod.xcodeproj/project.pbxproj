@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD2ECEFB2A5F1A8A00974C6A /* nasa_apodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ECEFA2A5F1A8A00974C6A /* nasa_apodApp.swift */; };
+		DD2ECEFD2A5F1A8A00974C6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ECEFC2A5F1A8A00974C6A /* ContentView.swift */; };
+		DD2ECEFF2A5F1A8B00974C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2ECEFE2A5F1A8B00974C6A /* Assets.xcassets */; };
+		DD2ECF022A5F1A8B00974C6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2ECF012A5F1A8B00974C6A /* Preview Assets.xcassets */; };
+		DD2ECF0C2A5F1A8B00974C6A /* nasa_apodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ECF0B2A5F1A8B00974C6A /* nasa_apodTests.swift */; };
+		DD2ECF162A5F1A8B00974C6A /* nasa_apodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ECF152A5F1A8B00974C6A /* nasa_apodUITests.swift */; };
+		DD2ECF182A5F1A8B00974C6A /* nasa_apodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ECF172A5F1A8B00974C6A /* nasa_apodUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD2ECF082A5F1A8B00974C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2ECEEF2A5F1A8A00974C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2ECEF62A5F1A8A00974C6A;
+			remoteInfo = "nasa-apod";
+		};
+		DD2ECF122A5F1A8B00974C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2ECEEF2A5F1A8A00974C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2ECEF62A5F1A8A00974C6A;
+			remoteInfo = "nasa-apod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD2ECEF72A5F1A8A00974C6A /* nasa-apod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nasa-apod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2ECEFA2A5F1A8A00974C6A /* nasa_apodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasa_apodApp.swift; sourceTree = "<group>"; };
+		DD2ECEFC2A5F1A8A00974C6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD2ECEFE2A5F1A8B00974C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD2ECF012A5F1A8B00974C6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD2ECF072A5F1A8B00974C6A /* nasa-apodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nasa-apodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2ECF0B2A5F1A8B00974C6A /* nasa_apodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasa_apodTests.swift; sourceTree = "<group>"; };
+		DD2ECF112A5F1A8B00974C6A /* nasa-apodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nasa-apodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2ECF152A5F1A8B00974C6A /* nasa_apodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasa_apodUITests.swift; sourceTree = "<group>"; };
+		DD2ECF172A5F1A8B00974C6A /* nasa_apodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasa_apodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD2ECEF42A5F1A8A00974C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2ECF042A5F1A8B00974C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2ECF0E2A5F1A8B00974C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD2ECEEE2A5F1A8A00974C6A = {
+			isa = PBXGroup;
+			children = (
+				DD2ECEF92A5F1A8A00974C6A /* nasa-apod */,
+				DD2ECF0A2A5F1A8B00974C6A /* nasa-apodTests */,
+				DD2ECF142A5F1A8B00974C6A /* nasa-apodUITests */,
+				DD2ECEF82A5F1A8A00974C6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2ECEF82A5F1A8A00974C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2ECEF72A5F1A8A00974C6A /* nasa-apod.app */,
+				DD2ECF072A5F1A8B00974C6A /* nasa-apodTests.xctest */,
+				DD2ECF112A5F1A8B00974C6A /* nasa-apodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2ECEF92A5F1A8A00974C6A /* nasa-apod */ = {
+			isa = PBXGroup;
+			children = (
+				DD2ECEFA2A5F1A8A00974C6A /* nasa_apodApp.swift */,
+				DD2ECEFC2A5F1A8A00974C6A /* ContentView.swift */,
+				DD2ECEFE2A5F1A8B00974C6A /* Assets.xcassets */,
+				DD2ECF002A5F1A8B00974C6A /* Preview Content */,
+			);
+			path = "nasa-apod";
+			sourceTree = "<group>";
+		};
+		DD2ECF002A5F1A8B00974C6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD2ECF012A5F1A8B00974C6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD2ECF0A2A5F1A8B00974C6A /* nasa-apodTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2ECF0B2A5F1A8B00974C6A /* nasa_apodTests.swift */,
+			);
+			path = "nasa-apodTests";
+			sourceTree = "<group>";
+		};
+		DD2ECF142A5F1A8B00974C6A /* nasa-apodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2ECF152A5F1A8B00974C6A /* nasa_apodUITests.swift */,
+				DD2ECF172A5F1A8B00974C6A /* nasa_apodUITestsLaunchTests.swift */,
+			);
+			path = "nasa-apodUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD2ECEF62A5F1A8A00974C6A /* nasa-apod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2ECF1B2A5F1A8B00974C6A /* Build configuration list for PBXNativeTarget "nasa-apod" */;
+			buildPhases = (
+				DD2ECEF32A5F1A8A00974C6A /* Sources */,
+				DD2ECEF42A5F1A8A00974C6A /* Frameworks */,
+				DD2ECEF52A5F1A8A00974C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nasa-apod";
+			productName = "nasa-apod";
+			productReference = DD2ECEF72A5F1A8A00974C6A /* nasa-apod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD2ECF062A5F1A8B00974C6A /* nasa-apodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2ECF1E2A5F1A8B00974C6A /* Build configuration list for PBXNativeTarget "nasa-apodTests" */;
+			buildPhases = (
+				DD2ECF032A5F1A8B00974C6A /* Sources */,
+				DD2ECF042A5F1A8B00974C6A /* Frameworks */,
+				DD2ECF052A5F1A8B00974C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2ECF092A5F1A8B00974C6A /* PBXTargetDependency */,
+			);
+			name = "nasa-apodTests";
+			productName = "nasa-apodTests";
+			productReference = DD2ECF072A5F1A8B00974C6A /* nasa-apodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD2ECF102A5F1A8B00974C6A /* nasa-apodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2ECF212A5F1A8B00974C6A /* Build configuration list for PBXNativeTarget "nasa-apodUITests" */;
+			buildPhases = (
+				DD2ECF0D2A5F1A8B00974C6A /* Sources */,
+				DD2ECF0E2A5F1A8B00974C6A /* Frameworks */,
+				DD2ECF0F2A5F1A8B00974C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2ECF132A5F1A8B00974C6A /* PBXTargetDependency */,
+			);
+			name = "nasa-apodUITests";
+			productName = "nasa-apodUITests";
+			productReference = DD2ECF112A5F1A8B00974C6A /* nasa-apodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2ECEEF2A5F1A8A00974C6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DD2ECEF62A5F1A8A00974C6A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DD2ECF062A5F1A8B00974C6A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DD2ECEF62A5F1A8A00974C6A;
+					};
+					DD2ECF102A5F1A8B00974C6A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DD2ECEF62A5F1A8A00974C6A;
+					};
+				};
+			};
+			buildConfigurationList = DD2ECEF22A5F1A8A00974C6A /* Build configuration list for PBXProject "nasa-apod" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD2ECEEE2A5F1A8A00974C6A;
+			productRefGroup = DD2ECEF82A5F1A8A00974C6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2ECEF62A5F1A8A00974C6A /* nasa-apod */,
+				DD2ECF062A5F1A8B00974C6A /* nasa-apodTests */,
+				DD2ECF102A5F1A8B00974C6A /* nasa-apodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD2ECEF52A5F1A8A00974C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2ECF022A5F1A8B00974C6A /* Preview Assets.xcassets in Resources */,
+				DD2ECEFF2A5F1A8B00974C6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2ECF052A5F1A8B00974C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2ECF0F2A5F1A8B00974C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD2ECEF32A5F1A8A00974C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2ECEFD2A5F1A8A00974C6A /* ContentView.swift in Sources */,
+				DD2ECEFB2A5F1A8A00974C6A /* nasa_apodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2ECF032A5F1A8B00974C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2ECF0C2A5F1A8B00974C6A /* nasa_apodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2ECF0D2A5F1A8B00974C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2ECF162A5F1A8B00974C6A /* nasa_apodUITests.swift in Sources */,
+				DD2ECF182A5F1A8B00974C6A /* nasa_apodUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD2ECF092A5F1A8B00974C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2ECEF62A5F1A8A00974C6A /* nasa-apod */;
+			targetProxy = DD2ECF082A5F1A8B00974C6A /* PBXContainerItemProxy */;
+		};
+		DD2ECF132A5F1A8B00974C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2ECEF62A5F1A8A00974C6A /* nasa-apod */;
+			targetProxy = DD2ECF122A5F1A8B00974C6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD2ECF192A5F1A8B00974C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD2ECF1A2A5F1A8B00974C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD2ECF1C2A5F1A8B00974C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nasa-apod/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mdoc.nasa-apod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD2ECF1D2A5F1A8B00974C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nasa-apod/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mdoc.nasa-apod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD2ECF1F2A5F1A8B00974C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mdoc.nasa-apodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nasa-apod.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nasa-apod";
+			};
+			name = Debug;
+		};
+		DD2ECF202A5F1A8B00974C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mdoc.nasa-apodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nasa-apod.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nasa-apod";
+			};
+			name = Release;
+		};
+		DD2ECF222A5F1A8B00974C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mdoc.nasa-apodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nasa-apod";
+			};
+			name = Debug;
+		};
+		DD2ECF232A5F1A8B00974C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mdoc.nasa-apodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nasa-apod";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD2ECEF22A5F1A8A00974C6A /* Build configuration list for PBXProject "nasa-apod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2ECF192A5F1A8B00974C6A /* Debug */,
+				DD2ECF1A2A5F1A8B00974C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2ECF1B2A5F1A8B00974C6A /* Build configuration list for PBXNativeTarget "nasa-apod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2ECF1C2A5F1A8B00974C6A /* Debug */,
+				DD2ECF1D2A5F1A8B00974C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2ECF1E2A5F1A8B00974C6A /* Build configuration list for PBXNativeTarget "nasa-apodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2ECF1F2A5F1A8B00974C6A /* Debug */,
+				DD2ECF202A5F1A8B00974C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2ECF212A5F1A8B00974C6A /* Build configuration list for PBXNativeTarget "nasa-apodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2ECF222A5F1A8B00974C6A /* Debug */,
+				DD2ECF232A5F1A8B00974C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD2ECEEF2A5F1A8A00974C6A /* Project object */;
+}
